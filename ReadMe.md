@@ -11,17 +11,17 @@ Setup
 
 Install Dependencies: pip install
 
-# !pip uninstall -qqy jupyterlab kfp  # Remove unused conflicting packages
-# !pip install -qU "google-genai==1.7.0" "chromadb==0.6.3"
-# !pip install openpyxl 3.1.0
-# !pip install --upgrade openpyxl
-# !pip install pdfplumber      
-# !pip install python-docx PyPDF2 openpyxl
-# !pip install beir      
-# !pip install vertexai      
-# !pip install PyPDF2
-# !pip install Pillow  
-# !pip install chromadb 
+!pip uninstall -qqy jupyterlab kfp  # Remove unused conflicting packages
+!pip install -qU "google-genai==1.7.0" "chromadb==0.6.3"
+!pip install openpyxl 3.1.0
+!pip install --upgrade openpyxl
+!pip install pdfplumber      
+!pip install python-docx PyPDF2 openpyxl
+!pip install beir      
+!pip install vertexai      
+!pip install PyPDF2
+!pip install Pillow  
+!pip install chromadb 
 
 Set up Gemini API: Replace the placeholder with your actual Google GenAI API key:
 
